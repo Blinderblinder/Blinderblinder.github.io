@@ -1,0 +1,42 @@
+html {
+  /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+  font-size: 20px; 
+  /* Google fonts 输出的 CSS */
+  font-family: 'Baloo Chettan', cursive;
+  background-color: pink;
+}
+h1{
+    margin: 0;
+    padding: 20px 0;
+    color: blue;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 3px 3px 1px black; /*阴影设置：水平偏移值，垂直偏移值，模糊半径*/ 
+}
+h2{
+    color: blueviolet;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+img{
+    display: block; /*给予块级元素性质，块级行为*/
+    margin: 0 auto;
+}
+
+
+p,li{
+    color: darkblue;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+body{
+    width: 600px;
+    margin: 0, auto;
+    background-color: lightpink;
+    padding: 0 20px 20px 20px; /*上、右、下、左的顺序排列*/
+    border: 5px solid black; /**/
+}
